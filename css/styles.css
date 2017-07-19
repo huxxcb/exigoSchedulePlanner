@@ -1,12 +1,11 @@
-.container body{
+#contentwrap{
     padding: 20px;
-
 }
 
 .jumbotron{
     background: linear-gradient(to bottom right, #006fff, #3366Df);
     color: white;
-    margin: -20px;
+    margin: -10px;
     padding: 10px;
     border-radius: 6px;
     box-shadow: 0px 4px 4px #666666;

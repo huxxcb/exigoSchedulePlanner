@@ -13,7 +13,7 @@ function loadXML()
 			// renderer for the action column
 			this.setCellRenderer("action", new CellRenderer({render: function(cell, value) {
 				cell.innerHTML = "<a onclick=\"if (confirm('Are you sure you want to delete this person ? ')) editableGrid.remove(" + cell.rowIndex + ");\" style=\"cursor:pointer\">" +
-								 "<img src=\"delete.png\" border=\"0\" alt=\"delete\" title=\"delete\"/></a>";
+								 "<img src=\"images/delete.png\" border=\"0\" alt=\"delete\" title=\"delete\"/></a>";
 			}}));
 
 			// render the grid
@@ -25,7 +25,7 @@ function loadXML()
 	});
 
 	// load XML file
-	editableGrid.loadXML("grid.xml");
+	editableGrid.loadXML("data/grid.xml");
 }
 
 // start when window is loaded
