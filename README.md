@@ -20,14 +20,21 @@ EditableGrid
 Export / Import - Steps
 #### Export
 **Vico Connector Configurator**
-Every import and export to vico office has to be handled through the Vico Connector Configurator.
+Documentation on how to use the Connector Configurator can be found here:
+```
+http://support.vicosoftware.com/FlareFiles/Content/Online%20Help/VOWS/VOWS%20-%20Utilization%20guide%20R6.5.pdf
+```
+Every import and export to Vico Office has to be handled through the Vico Connector Configurator.
 
 **XML vs JSON**
-JSON - Feels more like a relational database structure, based on IDs instead of actual inherited structure. I can not recommend using this structure as it is right now. There's a export JSON file included in the project under the folder *vicofiles*.
-XML - The XML feels reasonably put together, besides the fact that everything is put in as attributes, which to me is
-a somewhat convoluted way to organize every element. This was specifically a problem when importing the XML to Excel,
-since everything by default would be named by the attribute identifier, which for most of the attributes is ***v***.
-This practically means that, when you import the XML to a table in Excel, most columns are simply named *v1*,*v2*,*v3* ... *vn*.
+JSON - Feels more like a relational database structure, based on IDs instead of actual inherited structure.
+I can notrecommend using this structure as it is right now. There's a export JSON file included in the project
+under the folder *vicofiles*.
+XML - The XML feels reasonably put together, besides the fact that everything is put in as attributes,
+which to me is a somewhat convoluted way to organize every element. This was specifically a problem when
+importing the XML to Excel, since everything by default would be named by the attribute identifier, which
+for most of the attributes is ***v***. This practically means that, when you import the XML to a table in
+Excel, most columns are simply named *v1*,*v2*,*v3* ... *vn*.
 
 
 ## II. Usage notes
