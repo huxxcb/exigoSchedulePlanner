@@ -18,6 +18,15 @@ function loadXML()
 
 			// render the grid
 			this.renderGrid("tablecontent", "testgrid");
+
+			var x,xmlhttp,xmlDoc;
+			xmlhttp = new XMLHttpRequest();
+			xmlhttp.open("GET", "data/exigo_grid.xml", false);
+			xmlhttp.send();
+			xmlDoc = xmlhttp.responseXML;
+			x = xmlDoc.getElementsByTagName('schTask');
+
+
 		},
 
 		// called when some value has been modified: we display a message

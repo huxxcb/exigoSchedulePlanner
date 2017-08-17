@@ -3,9 +3,11 @@
 }
 
 .jumbotron{
-    background: linear-gradient(to bottom right, #006fff, #3366Df);
+    background: linear-gradient(to bottom right, #0170ff, #77a0ff);
     color: white;
-    margin: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
     padding: 10px;
     border-radius: 6px;
     box-shadow: 0px 4px 4px #666666;

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResponseDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <vowsdoc messageType="ResponseDocument"
+        messageSystem="VOWSXML"
+        version="1.0">
+        <header>
+            <authentication>
+                <email>admin@vicosoftware.com</email>
+                <password/>
+            </authentication>
+            <vpsHost>localhost</vpsHost>
+            <projectDbName>276d9e4c-4037-47f9-a582-1171214b9e58</projectDbName>
+            <projectCode>eh</projectCode>
+        </header>
+        <content>
+            <messages>
+                <infos>
+                </infos>
+                <warnings>
+                </warnings>
+                <errors>
+                </errors>
+                <authenticationErrors>
+                </authenticationErrors>
+                <authorizationErrors>
+                </authorizationErrors>
+            </messages>
+            <data>
+                <schedulingSystem>
+                    <tasks>
+                        <schTask loid="1006.0.43233" ploid="0.0.0" key="stoeb">
+                            <code v="stoeb" isKey="Y"/>
+                            <name v="Stoebning af fundament"/>
+                            <plannedStartDate v="2017-07-20T07:00:00"/>
+                            <plannedEndDate v="2017-07-25T12:00:00"/>
+                            <forecastedStartDate v="2017-07-20T15:59:29"/>
+                            <forecastedEndDate v="2017-07-20T15:59:29"/>
+                            <locSysLoid v="0.0.0"/>
+                            <actualProductivity v="1.8125"/>
+                            <subTasks>
+                                <subTask loid="1006.0.45293" ploid="1006.0.43233" key="stoeb">
+                                    <code v="stoeb" isKey="Y"/>
+                                    <name v="Stoebning af fundament"/>
+                                    <plannedStartDate v="2017-07-20T07:00:00"/>
+                                    <plannedEndDate v="2017-07-25T12:00:00"/>
+                                    <forecastedStartDate v="2017-07-20T15:59:29"/>
+                                    <forecastedEndDate v="2017-07-20T15:59:29"/>
+                                    <actualProductivity v="1.8125"/>
+                                    <supplier v=""/>
+                                    <locTasks>
+                                        <locTask loid="1006.0.45297" ploid="1006.0.45293" key="">
+                                            <name v="Etage 1"/>
+                                            <plannedStartDate v="2017-07-20T07:00:00"/>
+                                            <plannedEndDate v="2017-07-25T12:00:00"/>
+                                            <forecastedStartDate v="2017-07-20T07:00:00"/>
+                                            <forecastedEndDate v="2017-07-21T15:00:00"/>
+                                            <locLoid v="1006.0.43258"/>
+                                            <hasBegun v="1"/>
+                                            <actualProductivity v="1.8125"/>
+                                            <progressEntries>
+                                                <progressEntry loid="1006.0.45475" key="">
+                                                    <date v="2017-07-20T07:00:00"/>
+                                                    <type v="BEGIN"/>
+                                                    <completion v="0.0"/>
+                                                    <isLatest v="0"/>
+                                                </progressEntry>
+                                                <progressEntry loid="1006.0.45489" key="">
+                                                    <date v="2017-07-20T15:00:00"/>
+                                                    <type v="PROGRESS"/>
+                                                    <completion v="0.5"/>
+                                                    <isLatest v="1"/>
+                                                </progressEntry>
+                                            </progressEntries>
+                                        </locTask>
+                                    </locTasks>
+                                    <crew>
+                                        <count v="2"/>
+                                        <members>
+                                            <member loid="1006.0.45384" key="">
+                                                <code v="b1"/>
+                                                <name v="betonarbejder"/>
+                                                <prodFactor v="1.0"/>
+                                                <quantity v="3.0"/>
+                                                <unitCost v="0.0"/>
+                                            </member>
+                                        </members>
+                                    </crew>
+                                </subTask>
+                            </subTasks>
+                            <detTasks>
+                            </detTasks>
+                        </schTask>
+                        <schTask loid="1006.0.43241" ploid="0.0.0" key="elem">
+                            <code v="elem" isKey="Y"/>
+                            <name v="Montage af elementer"/>
+                            <plannedStartDate v="2017-07-25T12:00:00"/>
+                            <plannedEndDate v="2017-08-08T12:00:00"/>
+                            <forecastedStartDate v="2017-07-25T12:00:00"/>
+                            <forecastedEndDate v="2017-08-08T12:00:00"/>
+                            <locSysLoid v="0.0.0"/>
+                            <actualProductivity v="1.0"/>
+                            <subTasks>
+                                <subTask loid="1006.0.45307" ploid="1006.0.43241" key="elem">
+                                    <code v="elem" isKey="Y"/>
+                                    <name v="Montage af elementer"/>
+                                    <plannedStartDate v="2017-07-25T12:00:00"/>
+                                    <plannedEndDate v="2017-08-08T12:00:00"/>
+                                    <forecastedStartDate v="2017-07-25T12:00:00"/>
+                                    <forecastedEndDate v="2017-08-08T12:00:00"/>
+                                    <actualProductivity v="1.0"/>
+                                    <supplier v=""/>
+                                    <locTasks>
+                                        <locTask loid="1006.0.45311" ploid="1006.0.45307" key="">
+                                            <name v="Etage 1"/>
+                                            <plannedStartDate v="2017-07-25T12:00:00"/>
+                                            <plannedEndDate v="2017-07-28T14:40:00"/>
+                                            <forecastedStartDate v="2017-07-25T12:00:00"/>
+                                            <forecastedEndDate v="2017-07-28T14:40:00"/>
+                                            <locLoid v="1006.0.43258"/>
+                                            <hasBegun v="0"/>
+                                            <actualProductivity v="1.0"/>
+                                            <progressEntries>
+                                            </progressEntries>
+                                        </locTask>
+                                        <locTask loid="1006.0.45313" ploid="1006.0.45307" key="">
+                                            <name v="Etage 2"/>
+                                            <plannedStartDate v="2017-07-28T14:40:00"/>
+                                            <plannedEndDate v="2017-08-03T09:20:00"/>
+                                            <forecastedStartDate v="2017-07-28T14:40:00"/>
+                                            <forecastedEndDate v="2017-08-03T09:20:00"/>
+                                            <locLoid v="1006.0.43269"/>
+                                            <hasBegun v="0"/>
+                                            <actualProductivity v="1.0"/>
+                                            <progressEntries>
+                                            </progressEntries>
+                                        </locTask>
+                                        <locTask loid="1006.0.45315" ploid="1006.0.45307" key="">
+                                            <name v="Etage 3"/>
+                                            <plannedStartDate v="2017-08-03T09:20:00"/>
+                                            <plannedEndDate v="2017-08-08T12:00:00"/>
+                                            <forecastedStartDate v="2017-08-03T09:20:00"/>
+                                            <forecastedEndDate v="2017-08-08T12:00:00"/>
+                                            <locLoid v="1006.0.43279"/>
+                                            <hasBegun v="0"/>
+                                            <actualProductivity v="1.0"/>
+                                            <progressEntries>
+                                            </progressEntries>
+                                        </locTask>
+                                    </locTasks>
+                                    <crew>
+                                        <count v="1"/>
+                                        <members>
+                                            <member loid="1006.0.45391" key="">
+                                                <code v="e1"/>
+                                                <name v="elementmontoer"/>
+                                                <prodFactor v="1.0"/>
+                                                <quantity v="4.0"/>
+                                                <unitCost v="0.0"/>
+                                            </member>
+                                        </members>
+                                    </crew>
+                                </subTask>
+                            </subTasks>
+                            <detTasks>
+                            </detTasks>
+                        </schTask>
+                        <schTask loid="1006.0.43249" ploid="0.0.0" key="tag">
+                            <code v="tag" isKey="Y"/>
+                            <name v="Opbygning af tag"/>
+                            <plannedStartDate v="2017-08-08T12:00:00"/>
+                            <plannedEndDate v="2017-08-15T12:00:00"/>
+                            <forecastedStartDate v="2017-08-08T12:00:00"/>
+                            <forecastedEndDate v="2017-08-15T12:00:00"/>
+                            <locSysLoid v="0.0.0"/>
+                            <actualProductivity v="1.0"/>
+                            <subTasks>
+                                <subTask loid="1006.0.45318" ploid="1006.0.43249" key="tag">
+                                    <code v="tag" isKey="Y"/>
+                                    <name v="Opbygning af tag"/>
+                                    <plannedStartDate v="2017-08-08T12:00:00"/>
+                                    <plannedEndDate v="2017-08-15T12:00:00"/>
+                                    <forecastedStartDate v="2017-08-08T12:00:00"/>
+                                    <forecastedEndDate v="2017-08-15T12:00:00"/>
+                                    <actualProductivity v="1.0"/>
+                                    <supplier v=""/>
+                                    <locTasks>
+                                        <locTask loid="1006.0.45326" ploid="1006.0.45318" key="">
+                                            <name v="Etage 3"/>
+                                            <plannedStartDate v="2017-08-08T12:00:00"/>
+                                            <plannedEndDate v="2017-08-15T12:00:00"/>
+                                            <forecastedStartDate v="2017-08-08T12:00:00"/>
+                                            <forecastedEndDate v="2017-08-15T12:00:00"/>
+                                            <locLoid v="1006.0.43279"/>
+                                            <hasBegun v="0"/>
+                                            <actualProductivity v="1.0"/>
+                                            <progressEntries>
+                                            </progressEntries>
+                                        </locTask>
+                                    </locTasks>
+                                    <crew>
+                                        <count v="2"/>
+                                        <members>
+                                            <member loid="1006.0.45397" key="">
+                                                <code v="t1"/>
+                                                <name v="toemrer"/>
+                                                <prodFactor v="1.0"/>
+                                                <quantity v="2.0"/>
+                                                <unitCost v="0.0"/>
+                                            </member>
+                                        </members>
+                                    </crew>
+                                </subTask>
+                            </subTasks>
+                            <detTasks>
+                            </detTasks>
+                        </schTask>
+                    </tasks>
+                </schedulingSystem>
+            </data>
+        </content>
+    </vowsdoc>
+</ResponseDocument>
