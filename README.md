@@ -24,7 +24,7 @@ http://support.vicosoftware.com/FlareFiles/Content/Online%20Help/VOWS/VOWS%20-%2
 Every import and export to Vico Office has to be handled through the Vico
 Connector Configurator.
 
-#####XML vs JSON
+##### XML vs JSON
 
 JSON - Feels more like a relational database structure, based on IDs instead of
 an inheritance structure. I can't really recommend using this structure as it is
